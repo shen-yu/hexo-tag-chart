@@ -1,0 +1,7 @@
+<canvas id="<%- id %>" style="width: <%- width %>;height: <%- height %>px;margin: 0 auto"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+<script type="text/javascript">
+    var ctx = document.getElementById('<%- id %>').getContext('2d');
+    var options = <%= option %>;
+    var chart = new Chart(ctx, options);
+</script>
