@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/hexo-tag-chart)
 
-Insert [Chartjs](https://www.chartjs.org/) in Hexo by using tags.
+Insert [Chartjs](https://www.chartjs.org/) in Hexo site by using tags.
 
 ## Install 
 
@@ -33,7 +33,13 @@ $ npm install hexo-tag-chart --save
             data: [0, 10, 5, 2, 20, 30, 45]
         }]
     },
-    options: {}
+    options: {
+        responsive: true,
+        title: {
+            display: true,
+            text: 'Chart.js Line Chart'
+        }
+    }
 };
 {% endchart %}
 ```
