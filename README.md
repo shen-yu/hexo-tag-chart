@@ -1,6 +1,7 @@
 # hexo-tag-chart
 
 ![npm](https://img.shields.io/npm/v/hexo-tag-chart)
+![npm](https://img.shields.io/npm/dt/hexo-tag-chart)
 
 Insert [Chartjs](https://www.chartjs.org/) in Hexo site by using tags.
 
@@ -18,10 +19,15 @@ $ npm install hexo-tag-chart --save
 {% endchart %}
 ```
 
+|  Name   | Type  | Default  | Description  |
+|  ----  | ----  | ----  | ----  |
+| width  | decimal | 100% | The width of chart, responsive in window.  |
+| height  | number | 300 | The height of chart (px). |
+
 ## Example
 
 ```
-{% chart 400 300 %}
+{% chart 80% 300 %}
 {
     type: 'line',
     data: {

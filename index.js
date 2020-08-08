@@ -12,7 +12,7 @@ function chartsMaps(args, content) {
     return _.template(template)({
         id: 'chart' + ((Math.random() * 9999) | 0),
         option: options,
-        width: args[0] || 400,
+        width: args[0] || '100%',
         height: args[1] || 300
     });
 };
