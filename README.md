@@ -49,3 +49,5 @@ $ npm install hexo-tag-chart --save
 };
 {% endchart %}
 ```
+
+### For more details, visit [Demo](https://shen-yu.gitee.io/2020/chartjs/) here.
