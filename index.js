@@ -12,8 +12,8 @@ function chartsMaps(args, content) {
     return _.template(template)({
         id: 'chart' + ((Math.random() * 9999) | 0),
         option: options,
-        height: args[0] || 400,
-        width: args[1] || '80%'
+        width: args[0] || 400,
+        height: args[1] || 300
     });
 };
 

@@ -13,7 +13,7 @@ $ npm install hexo-tag-chart --save
 ## Usage
 
 ```
-{% chart [height] [width] %}
+{% chart [width] [height] %}
 \\Chartjs options goes here
 {% endchart %}
 ```
@@ -21,7 +21,7 @@ $ npm install hexo-tag-chart --save
 ## Example
 
 ```
-{% chart 400 '85%' %}
+{% chart 400 300 %}
 {
     type: 'line',
     data: {
