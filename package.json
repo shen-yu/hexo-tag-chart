@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-chart",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple plugin for inserting Chartjs by using tags in Hexo.",
   "main": "index.js",
   "scripts": {
