@@ -5,7 +5,7 @@
 
 Insert [Chartjs](https://www.chartjs.org/) in Hexo site by using tags.
 
-English | [中文说明](https://shen-yu.gitee.io/2020/chartjs/)
+English | [中文说明](https://shen-yu.github.io/2020/chartjs/)
 
 ## Install 
 
@@ -57,4 +57,4 @@ $ npm install hexo-tag-chart --save
 ![line chart](screenshots/1.png)
 
 
-## For more details, visit [Demo](https://shen-yu.gitee.io/2020/chartjs/) here.
+## For more details, visit [Demo](https://shen-yu.github.io/2020/chartjs/) here.
