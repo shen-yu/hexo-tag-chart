@@ -57,4 +57,4 @@ $ npm install hexo-tag-chart --save
 ![line chart](screenshots/1.png)
 
 
-## For more details, visit [Demo](https://shen-yu.github.io/2020/chartjs/) here.
+## For more details, visit [Demo](https://ayer.886622.xyz/2020/chartjs/) here.
