@@ -5,7 +5,7 @@
 
 Insert [Chartjs](https://www.chartjs.org/) in Hexo site by using tags.
 
-English | [中文说明](https://shen-yu.github.io/2020/chartjs/)
+English | [中文说明](https://ayer.886622.xyz/2020/chartjs/)
 
 ## Install 
 
